@@ -14,5 +14,12 @@
             "email": "suraj@appcartsystems.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Appcart\\Iroad\\IroadServiceProvider"
+            ]
+        }
+    }
 }
