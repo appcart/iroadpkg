@@ -1,0 +1,19 @@
+{
+    "name": "appcart/iroad",
+    "description": "This project is for road constructions",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Appcart\\Iroad\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "surajshindeappcart",
+            "email": "suraj@appcartsystems.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
