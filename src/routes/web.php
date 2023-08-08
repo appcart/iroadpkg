@@ -1,5 +1,5 @@
 <?php
 
 Route::get('testurl',function(){
-    return "Updated Test URL"; 
+    return "Updated Test URL 1"; 
 }); 
