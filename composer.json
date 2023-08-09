@@ -21,5 +21,10 @@
                 "Appcart\\Iroad\\IroadServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php artisan vendor:publish --tag=assets --force"
+        ]
     }
 }

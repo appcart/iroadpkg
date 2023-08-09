@@ -19,7 +19,6 @@ class IroadServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/assets' => public_path('appcart/iroad'),
         ], 'assets');
-    
 
         $router = $this->app->make(Router::class);
         $router->aliasMiddleware('valid', ValidLoggedIn::class);
