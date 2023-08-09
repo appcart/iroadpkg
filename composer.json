@@ -23,10 +23,8 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
-            "@php artisan vendor:publish --tag=assets --force"
-        ],
         "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan vendor:publish --tag=assets --force"
         ]
     }
