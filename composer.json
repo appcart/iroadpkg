@@ -25,6 +25,9 @@
     "scripts": {
         "post-install-cmd": [
             "@php artisan vendor:publish --tag=assets --force"
+        ],
+        "post-autoload-dump": [
+            "@php artisan vendor:publish --tag=assets --force"
         ]
     }
 }
